@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/internal/Observable';
-import { product } from './product';
+import { Product } from './product';
 import { ProductComponent } from './product-component/product-component';
 
 
@@ -14,11 +14,11 @@ export class ProductService {
   
   constructor(private http: HttpClient) { }
 
-  getAllProducts(): Observable<product[]>{
-    return this.http.get<product[]>(this.apiUrl);
+  getAllProducts(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.apiUrl);
   }
-  save(product: product): Observable<product>{
-    return this.http.post<product>(this.apiUrl, product);
+  save(product: Product): Observable<Product>{
+    return this.http.post<Product>(this.apiUrl, product);
   }
   
 }

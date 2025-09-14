@@ -9,7 +9,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { ProductComponent } from './product-component/product-component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
-import { product } from './product';
+import { Product } from './product';
 
 @NgModule({
   declarations: [

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { product } from '../product';
+import { Product } from '../product';
 import { ProductService } from '../product-service';
 
 @Component({
@@ -11,18 +11,18 @@ import { ProductService } from '../product-service';
 })
 export class ProductComponent implements OnInit{
   
-  products: product[] = [];
+  products: Product[] = [];
   formGroupProduct: FormGroup;
   
   constructor(private formBuilder: FormBuilder, private service: ProductService) {
     this.formGroupProduct = formBuilder.group({
       id: [''],
       name: [''],
-      description: [''],
-      price: [''],
-      ano: [''],
+      autor: [''],
       editora: [''],
-      autor: ['']
+      description: [''],
+      ano: [''],
+      price: [''],
     })
 
   }
