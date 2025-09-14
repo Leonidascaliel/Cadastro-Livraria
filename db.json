@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "O Senhor dos Aneis",
+      "autor": "JRR Tolkien",
+      "ano": 1954,
+      "editora": "Editora A",
+      "description": "Livro 1",
+      "price": 50
+    }
+  ]
+}
