@@ -2,48 +2,21 @@
   "products": [
     {
       "id": 1,
-      "name": "O Senhor dos Aneis",
-      "autor": "JRR Tolkien",
-      "ano": 1954,
-      "editora": "Editora A",
-      "description": "Livro 1",
-      "price": 50
+      "name": "a",
+      "autor": "a",
+      "editora": "a",
+      "description": "a",
+      "ano": "reskrin",
+      "price": "23132"
     },
     {
       "id": 2,
       "name": "a",
-      "autor": "a",
-      "editora": "a",
+      "autor": "afsg",
+      "editora": "sd",
       "description": "a",
-      "ano": "aa",
+      "ano": "saga",
       "price": "a"
-    },
-    {
-      "id": 3,
-      "name": null,
-      "autor": null,
-      "editora": null,
-      "description": null,
-      "ano": null,
-      "price": null
-    },
-    {
-      "id": 4,
-      "name": "a",
-      "autor": "a",
-      "editora": "a",
-      "description": "a",
-      "ano": "a",
-      "price": "a"
-    },
-    {
-      "id": 5,
-      "name": null,
-      "autor": null,
-      "editora": null,
-      "description": null,
-      "ano": null,
-      "price": null
     }
   ]
 }

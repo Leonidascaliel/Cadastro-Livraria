@@ -17,5 +17,11 @@ export class ProductService {
   save(product: Product): Observable<Product>{
     return this.http.post<Product>(this.apiUrl, product);
   }
-  
+  delete(product: Product): Observable<Product>{
+    return this.http.delete<Product>(`${this.apiUrl}/${product.id}`);
+  }
+  update(product: Product): Observable<Product>{
+    return this.http.put<Product>(`${this.apiUrl}/${product.id}`, product);
+  } 
 }
+
